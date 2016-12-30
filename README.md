@@ -133,7 +133,7 @@ You can use `.bg-{position}` classes to set background position.
 
 ## Margin and Padding
 
-Margin and Padding is a fork of [Space](http://aslanbakan.com/en/blog/less-space-responsive-css-margin-and-padding-helper-classes/) library.
+Margin and Padding is a fork of [less-space](http://aslanbakan.com/en/blog/less-space-responsive-css-margin-and-padding-helper-classes/) library.
 
 ``` html
 <div class="container">
