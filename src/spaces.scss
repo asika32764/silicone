@@ -1,0 +1,67 @@
+// Fork from http://aslanbakan.com/
+// @link http://aslanbakan.com/en/blog/less-space-responsive-css-margin-and-padding-helper-classes/
+
+// change to false if its not imported into bootstrap
+$use-bootstrap: false;
+
+// margin and padding values array
+$space-values : (
+  5,
+  10,
+  15,
+  20,
+  30,
+  40,
+  50,
+  75,
+  100
+) !default;
+
+// margin and padding shorthands
+$space-prefixes : (
+  p  : padding,
+  pt : padding-top,
+  pr : padding-right,
+  pb : padding-bottom,
+  pl : padding-left,
+  m  : margin,
+  mt : margin-top,
+  mr : margin-right,
+  mb : margin-bottom,
+  ml : margin-left,
+) !default;
+
+$breakpoints : $sc-grid-breakpoints;
+@if $use-bootstrap {
+  $breakpoints : $grid-breakpoints;
+}
+
+// main function definition
+@mixin make-space($values, $prefixes, $breakpoints) {
+  @each $breakpoint-name, $breakpoint-value in $breakpoints {
+    // if xs value = 0, set it global without media queries
+    @if($breakpoint-value == 0) {
+      @each $attr-short, $attr-long in $prefixes {
+        @each $value in $values {
+          .#{$breakpoint-name}-#{$attr-short}-#{$value} {
+            #{$attr-long}: #{$value}px;
+          }
+        }
+      }
+    }
+    // breakpoint values that not equal to 0
+    @else {
+      @media screen and (min-width: $breakpoint-value) {
+        @each $attr-short, $attr-long in $prefixes {
+          @each $value in $values {
+            .#{$breakpoint-name}-#{$attr-short}-#{$value} {
+              #{$attr-long}: #{$value}px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include make-space($space-values, $space-prefixes, $breakpoints);

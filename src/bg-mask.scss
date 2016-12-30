@@ -1,0 +1,60 @@
+.bg-mask {
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-mask::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  opacity: .3;
+}
+
+@for $i from 1 through 9 {
+  .bg-mask-op-#{$i}::before {
+    opacity: 1 / 10 * $i;
+  }
+}
+
+.bg-mask-content {
+  position: relative;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center-center {
+  background-position: center center;
+}
+
+.bg-left {
+  background-position-x: left;
+}
+
+.bg-center {
+  background-position-x: center;
+}
+
+.bg-right {
+  background-position-x: right;
+}
+
+.bg-top {
+  background-position-y: top;
+}
+
+.bg-middle {
+  background-position-y: center;
+}
+
+.bg-bottom {
+  background-position-y: bottom;
+}

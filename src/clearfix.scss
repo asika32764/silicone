@@ -1,0 +1,14 @@
+// Use on the elements wrap, group is more semantic name
+.float-group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// Use on the fix element
+.clearfix {
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}
