@@ -4,10 +4,16 @@ A simple css helper to use with every css frameworks.
 
 ## Getting Started
 
-Just include it by HTML link:
+[Download](https://github.com/asika32764/silicone/tree/master/dist) latest version or install by bower:
+
+``` bash
+bower install silicone
+```
+
+Then just include it by HTML link:
 
 ``` html
-<link rel="stylesheet" href="css/silicone.css" />
+<link rel="stylesheet" href="css/silicone.min.css" />
 ```
 
 ## Vertical Align
