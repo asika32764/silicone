@@ -90,8 +90,8 @@ A simple class set to set `vh` height to elements.
 
 bg-mask class helps us set a background mask to element.
 
-This example use `bg-mask` to create black ::before element and `bg-mask-op-5` add opacity 0.5 to cover
-the background image. And the `bg-mask-content` makes sure content text will not overlay by mask element.
+This example use `bg-mask` to create black ::before element and `bg-mask-op-5` add opacity 0.5 to overlay
+the background image. And the `bg-mask-content` make sure content text will float on the top.
 
 ``` html
 <div class="bg-mask bg-mask-op-5" style="background-image: url(http://i.imgur.com/6FWMGdH.jpg);">
