@@ -116,8 +116,9 @@ The full example is:
 
 ![p-2016-12-31-002](https://cloud.githubusercontent.com/assets/1639206/21569625/7f16f3f2-cef9-11e6-881b-303de111a15e.jpg)
 
-> The `bg-mask-op-*` support 1 to 9.
-> Use `bg-cover` to set `background-size: cover`
+The `bg-mask-op-*` support 1 to 9.
+
+`bg-cover` is a helpful class to set `background-size: cover`.
 
 ## Background Position
 
