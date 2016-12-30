@@ -1,6 +1,11 @@
-@import "variables";
-@import "vertical-align";
-@import "clearfix";
-@import "height";
-@import "bg-mask";
-@import "spaces";
+/*!
+ * silicone.css - A simple css helper to use with every css frameworks.
+ * @link https://github.com/asika32764/silicone
+ */
+
+@import "components/variables";
+@import "components/vertical-align";
+@import "components/clearfix";
+@import "components/height";
+@import "components/bg-mask";
+@import "components/spaces";

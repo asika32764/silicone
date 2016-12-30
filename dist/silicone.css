@@ -1,3 +1,7 @@
+/*!
+ * silicone.css - A simple css helper to use with every css frameworks.
+ * @link https://github.com/asika32764/silicone
+ */
 .vertical-align::before {
   content: '';
   display: inline-block;
@@ -39,7 +43,7 @@
   height: 60vh; }
 
 .height-lg {
-  height: 90vh; }
+  height: 80vh; }
 
 .height-full {
   height: 100vh; }
