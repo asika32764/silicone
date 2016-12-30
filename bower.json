@@ -1,0 +1,25 @@
+{
+  "name": "silicone",
+  "description": "A simple CSS helper to use to support every CSS frameworks.",
+  "main": "dist/silicone.min.css",
+  "authors": [
+    "Simon Asika <asika32764@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "framework",
+    "bootstrap",
+    "foundation",
+    "helper",
+    "extended"
+  ],
+  "homepage": "https://github.com/asika32764/silicone",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
