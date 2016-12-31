@@ -55,6 +55,33 @@
 .height-full {
   height: 100vh; }
 
+.bg-cover {
+  background-size: cover; }
+
+.bg-fixed {
+  background-attachment: fixed; }
+
+.bg-center-center {
+  background-position: center center; }
+
+.bg-left {
+  background-position-x: left; }
+
+.bg-center {
+  background-position-x: center; }
+
+.bg-right {
+  background-position-x: right; }
+
+.bg-top {
+  background-position-y: top; }
+
+.bg-middle {
+  background-position-y: center; }
+
+.bg-bottom {
+  background-position-y: bottom; }
+
 .bg-mask {
   overflow: hidden;
   position: relative; }
@@ -98,32 +125,22 @@
 .bg-mask-content {
   position: relative; }
 
-.bg-cover {
-  background-size: cover; }
+.bg-blur {
+  background-size: cover;
+  background-attachment: inherit;
+  display: block;
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
+  width: 120%;
+  margin: -30px -30px 0;
+  position: fixed;
+  top: 0; }
 
-.bg-fixed {
-  background-attachment: fixed; }
+.bg-blur-content {
+  position: relative; }
 
-.bg-center-center {
-  background-position: center center; }
-
-.bg-left {
-  background-position-x: left; }
-
-.bg-center {
-  background-position-x: center; }
-
-.bg-right {
-  background-position-x: right; }
-
-.bg-top {
-  background-position-y: top; }
-
-.bg-middle {
-  background-position-y: center; }
-
-.bg-bottom {
-  background-position-y: bottom; }
+.bg-blur-full {
+  height: 120vh; }
 
 .xs-p-5 {
   padding: 5px; }

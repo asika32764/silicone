@@ -1,0 +1,18 @@
+.bg-blur {
+  background-size: cover;
+  background-attachment: inherit;
+  display: block;
+  filter: blur(20px);
+  width: 120%;
+  margin: -30px -30px 0;
+  position: fixed;
+  top: 0;
+}
+
+.bg-blur-content {
+  position: relative;
+}
+
+.bg-blur-full {
+  height: 120vh;
+}
