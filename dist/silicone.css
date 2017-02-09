@@ -34,7 +34,7 @@
   display: table;
   clear: both; }
 
-.clearfix {
+.sc-clearfix {
   clear: both;
   height: 0;
   display: block;
