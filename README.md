@@ -16,6 +16,12 @@ Then just include it by HTML link:
 <link rel="stylesheet" href="css/silicone.min.css" />
 ```
 
+## Box Centered
+
+Use `.box-center` to make an `<div>` element align centered. (By using `margin: 0 auto;`)
+
+It will remove float styles from this element.
+
 ## Vertical Align
 
 ``` html
@@ -58,6 +64,24 @@ This is an full example.
 
 ![p-2016-12-31-001](https://cloud.githubusercontent.com/assets/1639206/21569521/88cad84c-cef8-11e6-83c6-32e5a01f6066.jpg)
 
+### Use `.table-layout`
+
+`table-layout` can help us do vertical align with `display: table` method but won't break bootstrap `col-*` classes.
+
+Also supported media queries (`xs-` ~ `lg-`) to create RWD sites.
+
+``` html
+<div class="row table-layout">
+    <div class="col-md-6 md-table-cell vertical-align-middle">
+       ...
+    </div>
+
+    <div class="col-md-6 md-table-cell vertical-align-middle">
+        ...
+    </div>
+</div>
+```
+
 ## Clearfix
 
 Use `float-group` class to wrap elements, this name is more semantic.
@@ -70,7 +94,7 @@ Use `float-group` class to wrap elements, this name is more semantic.
 </div>
 ```
 
-Or use classic `clearfix` class.
+Or use classic `sc-clearfix` class.
 
 ``` html
 <div>
@@ -78,7 +102,7 @@ Or use classic `clearfix` class.
     <div class="pull-left"></div>
     <div class="pull-left"></div>
 
-    <div class="clearfix"></div>
+    <div class="sc-clearfix"></div>
 </div>
 ```
 
@@ -125,6 +149,16 @@ The full example is:
 The `bg-mask-op-*` support 1 to 9.
 
 `bg-cover` is a helpful class to set `background-size: cover`.
+
+## Background Blur
+
+``` html
+<div class="bg-blur bg-blur-full">
+    <div class="bg-blur-content">
+        ...
+    </div>
+</div>
+```
 
 ## Background Position
 

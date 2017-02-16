@@ -7,7 +7,11 @@
 
 .box-center {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  float: none; }
+
+.float-none {
+  float: none; }
 
 .vertical-align::before {
   content: '';
@@ -15,19 +19,48 @@
   height: 100%;
   vertical-align: middle; }
 
-.vertical-align .vertical-align-bottom,
-.vertical-align .vertical-align-middle {
+.vertical-align-bottom,
+.vertical-align-middle {
   display: inline-block;
   max-width: 100%; }
 
-.vertical-align .vertical-align-top {
+.vertical-align-top {
   vertical-align: top; }
 
-.vertical-align .vertical-align-middle {
+.vertical-align-middle {
   vertical-align: middle; }
 
-.vertical-align .vertical-align-bottom {
+.vertical-align-bottom {
   vertical-align: bottom; }
+
+.table-layout {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+
+.xs-table-cell {
+  display: table-cell;
+  float: none; }
+
+@media screen and (min-width: 576px) {
+  .sm-table-cell {
+    display: table-cell;
+    float: none; } }
+
+@media screen and (min-width: 768px) {
+  .md-table-cell {
+    display: table-cell;
+    float: none; } }
+
+@media screen and (min-width: 992px) {
+  .lg-table-cell {
+    display: table-cell;
+    float: none; } }
+
+@media screen and (min-width: 1200px) {
+  .xl-table-cell {
+    display: table-cell;
+    float: none; } }
 
 .float-group::after {
   content: "";
