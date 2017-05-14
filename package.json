@@ -1,4 +1,25 @@
 {
+  "name": "silicone",
+  "version": "0.1.7",
+  "description": "A simple css helper to extend bootstrap and other css frameworks.",
+  "author": {
+    "name": "Simon Asika",
+    "email": "asika32764@gmail.com"
+  },
+  "homepage": "https://github.com/asika32764/silicone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asika32764/silicone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asika32764/silicone/issues"
+  },
+  "keywords": [
+    "css",
+    "helper",
+    "bootstrap"
+  ],
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
