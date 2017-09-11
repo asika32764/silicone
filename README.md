@@ -16,6 +16,14 @@ Then just include it by HTML link:
 <link rel="stylesheet" href="css/silicone.min.css" />
 ```
 
+### CDN
+
+Use [Unpkg](https://unpkg.com) to get latest version file.
+
+```
+https://unpkg.com/silicone/dist/silicone.min.css
+```
+
 ## Box Centered
 
 Use `.box-center` to make an `<div>` element align centered. (By using `margin: 0 auto;`)
