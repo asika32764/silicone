@@ -506,7 +506,7 @@
 .xs-ml-100 {
   margin-left: 100px; }
 
-@media screen and (min-width: 576px) {
+@media (min-width: 576px) {
   .sm-p-0 {
     padding: 0px; }
   .sm-p-5 {
@@ -728,7 +728,7 @@
   .sm-ml-100 {
     margin-left: 100px; } }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .md-p-0 {
     padding: 0px; }
   .md-p-5 {
@@ -950,7 +950,7 @@
   .md-ml-100 {
     margin-left: 100px; } }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .lg-p-0 {
     padding: 0px; }
   .lg-p-5 {
@@ -1172,7 +1172,7 @@
   .lg-ml-100 {
     margin-left: 100px; } }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .xl-p-0 {
     padding: 0px; }
   .xl-p-5 {

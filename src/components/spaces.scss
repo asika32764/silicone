@@ -53,7 +53,7 @@ $breakpoints : $sc-grid-breakpoints;
     }
     // breakpoint values that not equal to 0
     @else {
-      @media screen and (min-width: $breakpoint-value) {
+      @media (min-width: $breakpoint-value) {
         @each $attr-short, $attr-long in $prefixes {
           @each $value in $values {
             .#{$breakpoint-name}-#{$attr-short}-#{$value} {
