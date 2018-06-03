@@ -1,6 +1,6 @@
 {
   "name": "silicone",
-  "version": "0.1.7",
+  "version": "1.0.0-beta1",
   "description": "A simple css helper to extend bootstrap and other css frameworks.",
   "author": {
     "name": "Simon Asika",
@@ -20,6 +20,9 @@
     "helper",
     "bootstrap"
   ],
+  "scripts": {
+    "release": "node bin/release.js"
+  },
   "devDependencies": {
     "bootstrap": "^4.1.1",
     "del": "^2.2.2",
