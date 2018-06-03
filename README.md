@@ -124,6 +124,20 @@ A simple class set to set `vh` height to elements.
 - `.height-lg` => 80vh
 - `.height-full` => 100vh
 
+## Grid Columns Equal Height
+
+Use `.equal-hight` on row div to make child columns equal height.
+
+```html
+<div class="row equal-height">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4"></div>
+</div>
+```
+
+> This class uses `flex-wrap` property.
+
 ## Background Mask
 
 bg-mask class helps us set a background mask to element.
@@ -204,11 +218,12 @@ Let's examine these 3 parted class with a visual diagram.
 
 This section defines which viewport that element belongs right now.
 
-- `xs` (extra small: 480px) Mobile phones and bigger screen sizes..
+- `xs` Mobile phones and bigger screen sizes..
 xs represents global viewport size by the way. If we want margin or padding values stay same on all screen sizes, we use xs to achieve that.
-- `sm` (small: 768px) Tablet devices and bigger screens.
-- `md` (medium: 992px) Desktop and bigger screens
-- `lg` (large: 1200px) Extra wide viewport sizes.
+- `sm` (>= 576px) Tablet devices and bigger screens.
+- `md` (>= 768px) Desktop and bigger screens
+- `lg` (>= 992px) Large viewport sizes.
+- `xl` (>= 1200px) Extra large wide viewport sizes.
 
 ### Blue area
 
