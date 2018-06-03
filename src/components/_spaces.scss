@@ -5,7 +5,7 @@
 $use-bootstrap: false;
 
 // margin and padding values array
-$space-values : (
+$px-spaces: (
   0,
   5,
   10,
@@ -66,4 +66,4 @@ $breakpoints : $sc-grid-breakpoints;
   }
 }
 
-@include make-space($space-values, $space-prefixes, $breakpoints);
+@include make-space($px-spaces, $space-prefixes, $breakpoints);
