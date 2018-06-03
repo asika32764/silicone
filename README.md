@@ -232,4 +232,4 @@ This is the integer section that you want to set.
 - It could be zero "0"
 - Only digits.
 - Minus values will not be accepted. (I Didn't define them consider its using rate.)
-- Currently supports: 5, 10, 15, 20, 30, 40, 50, 75, 100
+- Currently supports: 5, 10, 15, 20, 25, 30, 40, 50, 75, 100

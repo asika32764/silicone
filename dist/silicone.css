@@ -2,9 +2,6 @@
  * silicone.css - A simple css helper to use with every css frameworks.
  * @link https://github.com/asika32764/silicone
  */
-.nowrap {
-  white-space: nowrap; }
-
 .box-center {
   margin-left: auto;
   margin-right: auto;
@@ -164,7 +161,8 @@
   background-size: cover;
   background-attachment: inherit;
   display: block;
-  filter: blur(20px);
+  -webkit-filter: blur(20px);
+          filter: blur(20px);
   width: 120%;
   margin: -30px -30px 0;
   position: fixed;
@@ -1393,3 +1391,5 @@
     margin-left: 75px; }
   .xl-ml-100 {
     margin-left: 100px; } }
+
+/*# sourceMappingURL=silicone.css.map */
