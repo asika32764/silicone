@@ -1,0 +1,37 @@
+.height-xs {
+  height: 20vh;
+}
+
+.height-sm {
+  height: 40vh;
+}
+
+.height-md {
+  height: 60vh;
+}
+
+.height-lg {
+  height: 80vh;
+}
+
+.height-full {
+  height: 100vh;
+}
+
+$breakpoint: null;
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @if($breakpoint-value == 0) {
+    .xl-width-full {
+      width: 100% !important;
+    }
+  } @else {
+    @media (max-width: ($breakpoint-value - 1)) {
+      .#{$breakpoint}-width-full {
+        width: 100% !important;
+      }
+    }
+  }
+
+  $breakpoint: $breakpoint-name;
+}

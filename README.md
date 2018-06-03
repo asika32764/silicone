@@ -114,15 +114,33 @@ Or use classic `sc-clearfix` class.
 </div>
 ```
 
-## Height
+## Sizing
+
+### Height
 
 A simple class set to set `vh` height to elements.
 
-- `.height-xs` => 20vh
-- `.height-sm` => 40vh
-- `.height-md` => 60vh
-- `.height-lg` => 80vh
-- `.height-full` => 100vh
+- `.height-xs`: 20vh
+- `.height-sm`: 40vh
+- `.height-md`: 60vh
+- `.height-lg`: 80vh
+- `.height-full`: 100vh
+
+### Width
+
+Width classes is useful if you want some elements full width in RWD.
+
+This example will make button 100% width when breakpoint small than 767px.
+
+```html
+<button class="btn btn-primary sm-width-full">Submit</button>
+```
+
+- `.xs-width-full`: Full width if <= 479px
+- `.sm-width-full`: Full width if <= 575px
+- `.md-width-full`: Full width if <= 991px
+- `.lg-width-full`: Full width if <= 1199px
+- `.xl-width-full`: Always full width.
 
 ## Grid Columns Equal Height
 

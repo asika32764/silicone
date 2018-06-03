@@ -92,6 +92,25 @@
 .height-full {
   height: 100vh; }
 
+.xl-width-full {
+  width: 100% !important; }
+
+@media (max-width: 575px) {
+  .xs-width-full {
+    width: 100% !important; } }
+
+@media (max-width: 767px) {
+  .sm-width-full {
+    width: 100% !important; } }
+
+@media (max-width: 991px) {
+  .md-width-full {
+    width: 100% !important; } }
+
+@media (max-width: 1199px) {
+  .lg-width-full {
+    width: 100% !important; } }
+
 .bg-cover {
   background-size: cover; }
 
