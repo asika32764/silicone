@@ -70,6 +70,13 @@
 .float-none {
   float: none; }
 
+.equal-height {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
 .height-xs {
   height: 20vh; }
 
